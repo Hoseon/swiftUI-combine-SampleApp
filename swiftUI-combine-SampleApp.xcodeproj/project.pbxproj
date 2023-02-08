@@ -8,22 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		DAF199CB2992DEC2002847FF /* swiftUI_combine_SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199CA2992DEC2002847FF /* swiftUI_combine_SampleAppApp.swift */; };
-		DAF199CD2992DEC2002847FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199CC2992DEC2002847FF /* ContentView.swift */; };
+		DAF199CD2992DEC2002847FF /* LoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199CC2992DEC2002847FF /* LoanView.swift */; };
 		DAF199CF2992DEC3002847FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF199CE2992DEC3002847FF /* Assets.xcassets */; };
 		DAF199D22992DEC3002847FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF199D12992DEC3002847FF /* Preview Assets.xcassets */; };
 		DAF199D42992DEC3002847FF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199D32992DEC3002847FF /* Persistence.swift */; };
 		DAF199D72992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF199D52992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodeld */; };
+		DAF199DF299300C4002847FF /* LoanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199DE299300C4002847FF /* LoanCellView.swift */; };
+		DAF199E1299301DE002847FF /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199E0299301DE002847FF /* Date+Ext.swift */; };
+		DAF199E329930264002847FF /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199E229930264002847FF /* Double+Ext.swift */; };
+		DAF199E72993041A002847FF /* AddLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199E62993041A002847FF /* AddLoanView.swift */; };
+		DAF199EA299308F7002847FF /* AddLoanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199E9299308F7002847FF /* AddLoanViewModel.swift */; };
+		DAF199F129931362002847FF /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199F029931362002847FF /* PaymentView.swift */; };
+		DAF199F329931385002847FF /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199F229931385002847FF /* PaymentViewModel.swift */; };
+		DAF199F529931800002847FF /* AddPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199F429931800002847FF /* AddPaymentViewModel.swift */; };
+		DAF199F729931835002847FF /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199F629931835002847FF /* AddPaymentView.swift */; };
+		DAF199F929931F0A002847FF /* PaymentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199F829931F0A002847FF /* PaymentCellView.swift */; };
+		DAF199FB29936D9A002847FF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF199FA29936D9A002847FF /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAF199C72992DEC2002847FF /* swiftUI-combine-SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-combine-SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF199CA2992DEC2002847FF /* swiftUI_combine_SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_combine_SampleAppApp.swift; sourceTree = "<group>"; };
-		DAF199CC2992DEC2002847FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAF199CC2992DEC2002847FF /* LoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanView.swift; sourceTree = "<group>"; };
 		DAF199CE2992DEC3002847FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF199D12992DEC3002847FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAF199D32992DEC3002847FF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DAF199D62992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swiftUI_combine_SampleApp.xcdatamodel; sourceTree = "<group>"; };
 		DAF199D82992DEC3002847FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF199DE299300C4002847FF /* LoanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCellView.swift; sourceTree = "<group>"; };
+		DAF199E0299301DE002847FF /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		DAF199E229930264002847FF /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		DAF199E62993041A002847FF /* AddLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanView.swift; sourceTree = "<group>"; };
+		DAF199E9299308F7002847FF /* AddLoanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanViewModel.swift; sourceTree = "<group>"; };
+		DAF199F029931362002847FF /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		DAF199F229931385002847FF /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		DAF199F429931800002847FF /* AddPaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewModel.swift; sourceTree = "<group>"; };
+		DAF199F629931835002847FF /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
+		DAF199F829931F0A002847FF /* PaymentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCellView.swift; sourceTree = "<group>"; };
+		DAF199FA29936D9A002847FF /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		DAF199FC29937E5B002847FF /* swiftUI-combine-SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftUI-combine-SampleApp.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +79,18 @@
 		DAF199C92992DEC2002847FF /* swiftUI-combine-SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				DAF199FC29937E5B002847FF /* swiftUI-combine-SampleApp.entitlements */,
 				DAF199CA2992DEC2002847FF /* swiftUI_combine_SampleAppApp.swift */,
-				DAF199CC2992DEC2002847FF /* ContentView.swift */,
+				DAF199EC299312E7002847FF /* Model */,
+				DAF199EB299312D0002847FF /* CoreData */,
+				DAF199E8299308E5002847FF /* ViewModel */,
+				DAF199E529930406002847FF /* Extensions */,
+				DAF199ED29931316002847FF /* LoanView */,
+				DAF199EE2993131E002847FF /* AddLoanView */,
+				DAF199EF29931348002847FF /* PaymentView */,
+				DAF199E4299303FA002847FF /* Views */,
 				DAF199CE2992DEC3002847FF /* Assets.xcassets */,
-				DAF199D32992DEC3002847FF /* Persistence.swift */,
 				DAF199D82992DEC3002847FF /* Info.plist */,
-				DAF199D52992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodeld */,
 				DAF199D02992DEC3002847FF /* Preview Content */,
 			);
 			path = "swiftUI-combine-SampleApp";
@@ -73,6 +102,76 @@
 				DAF199D12992DEC3002847FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF199E4299303FA002847FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199DE299300C4002847FF /* LoanCellView.swift */,
+				DAF199F829931F0A002847FF /* PaymentCellView.swift */,
+				DAF199FA29936D9A002847FF /* ProgressBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAF199E529930406002847FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199E0299301DE002847FF /* Date+Ext.swift */,
+				DAF199E229930264002847FF /* Double+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DAF199E8299308E5002847FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199E9299308F7002847FF /* AddLoanViewModel.swift */,
+				DAF199F229931385002847FF /* PaymentViewModel.swift */,
+				DAF199F429931800002847FF /* AddPaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAF199EB299312D0002847FF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199D32992DEC3002847FF /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DAF199EC299312E7002847FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199D52992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAF199ED29931316002847FF /* LoanView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199CC2992DEC2002847FF /* LoanView.swift */,
+			);
+			path = LoanView;
+			sourceTree = "<group>";
+		};
+		DAF199EE2993131E002847FF /* AddLoanView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199E62993041A002847FF /* AddLoanView.swift */,
+			);
+			path = AddLoanView;
+			sourceTree = "<group>";
+		};
+		DAF199EF29931348002847FF /* PaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF199F029931362002847FF /* PaymentView.swift */,
+				DAF199F629931835002847FF /* AddPaymentView.swift */,
+			);
+			path = PaymentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +245,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF199D42992DEC3002847FF /* Persistence.swift in Sources */,
-				DAF199CD2992DEC2002847FF /* ContentView.swift in Sources */,
+				DAF199CD2992DEC2002847FF /* LoanView.swift in Sources */,
+				DAF199E72993041A002847FF /* AddLoanView.swift in Sources */,
+				DAF199F929931F0A002847FF /* PaymentCellView.swift in Sources */,
+				DAF199F129931362002847FF /* PaymentView.swift in Sources */,
+				DAF199DF299300C4002847FF /* LoanCellView.swift in Sources */,
+				DAF199E1299301DE002847FF /* Date+Ext.swift in Sources */,
+				DAF199EA299308F7002847FF /* AddLoanViewModel.swift in Sources */,
+				DAF199F529931800002847FF /* AddPaymentViewModel.swift in Sources */,
+				DAF199E329930264002847FF /* Double+Ext.swift in Sources */,
 				DAF199CB2992DEC2002847FF /* swiftUI_combine_SampleAppApp.swift in Sources */,
 				DAF199D72992DEC3002847FF /* swiftUI_combine_SampleApp.xcdatamodeld in Sources */,
+				DAF199F729931835002847FF /* AddPaymentView.swift in Sources */,
+				DAF199FB29936D9A002847FF /* ProgressBar.swift in Sources */,
+				DAF199F329931385002847FF /* PaymentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +384,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI-combine-SampleApp/swiftUI-combine-SampleApp.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-combine-SampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = LPGZ9MQ94U;
+				DEVELOPMENT_TEAM = FVWPNKUT4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,6 +404,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.chu.swiftUI-combine-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,10 +416,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI-combine-SampleApp/swiftUI-combine-SampleApp.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-combine-SampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = LPGZ9MQ94U;
+				DEVELOPMENT_TEAM = FVWPNKUT4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -321,6 +436,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.chu.swiftUI-combine-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

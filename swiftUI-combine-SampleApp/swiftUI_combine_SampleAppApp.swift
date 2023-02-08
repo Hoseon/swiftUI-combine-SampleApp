@@ -13,7 +13,7 @@ struct swiftUI_combine_SampleAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoanView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

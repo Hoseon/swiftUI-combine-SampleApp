@@ -10,25 +10,11 @@ import CoreData
 struct PersistenceController {
     static let shared = PersistenceController()
 
-    static var preview: PersistenceController = {
-        let result = PersistenceController(inMemory: true)
-        let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-        }
-        do {
-            try viewContext.save()
-        } catch {
-            // Replace this implementation with code to handle the error appropriately.
-            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-            let nsError = error as NSError
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-        }
-        return result
-    }()
-
     let container: NSPersistentCloudKitContainer
+    
+    var viewContext: NSManagedObjectContext {
+        return container.viewContext
+    }
 
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "swiftUI_combine_SampleApp")
@@ -53,4 +39,29 @@ struct PersistenceController {
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
+    
+    func save() {
+        do {
+            try viewContext.save()
+        } catch {
+            fatalError("저장 실패 : \(error.localizedDescription)")
+        }
+        
+    }
+    
+    func fetchPayments(for loanId: String) -> [Payment] {
+        let request: NSFetchRequest<Payment> = Payment.fetchRequest()
+        request.predicate = NSPredicate(format: "loanId == %@", loanId)
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Payment.date, ascending: true)]
+        
+        do {
+            return try viewContext.fetch(request)
+        }
+        catch {
+            return []
+        }
+        
+        
+    }
+    
 }
